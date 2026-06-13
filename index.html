@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Elena Vassiliou — Architectural Engineer specializing in residential, commercial, and landscape design.">
+  <title>Elena Vassiliou | Architectural Engineer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="header" id="header">
+    <div class="container header__inner">
+      <a href="index.html" class="logo">Elena Vassiliou</a>
+      <nav class="nav" id="nav">
+        <ul class="nav__list">
+          <li><a href="index.html" class="nav__link active">Home</a></li>
+          <li><a href="index.html#about" class="nav__link">About</a></li>
+          <li><a href="portfolio.html" class="nav__link">Portfolio</a></li>
+          <li><a href="resume.html" class="nav__link">Resume</a></li>
+          <li><a href="index.html#contact" class="nav__link">Contact</a></li>
+        </ul>
+        <a href="index.html#contact" class="btn btn--primary nav__cta">Get in Touch</a>
+      </nav>
+      <button class="hamburger" id="hamburger" aria-label="Toggle navigation menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section class="hero" id="home">
+      <div class="hero__bg">
+        <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=1920&q=80" alt="Modern architectural residence" loading="eager">
+      </div>
+      <div class="hero__overlay"></div>
+      <div class="container hero__content">
+        <div class="hero__text reveal">
+          <p class="hero__eyebrow">Architectural Engineer</p>
+          <h1 class="hero__title">Designing Spaces,<br>Shaping Futures</h1>
+          <p class="hero__subtitle">I craft environments where form meets function — blending structural precision with timeless aesthetic vision.</p>
+          <div class="hero__actions">
+            <a href="portfolio.html" class="btn btn--primary">View Work</a>
+            <a href="#contact" class="btn btn--outline">Contact Me</a>
+          </div>
+        </div>
+        <div class="hero__stats reveal reveal--delay">
+          <div class="hero__stat">
+            <span class="hero__stat-number">12+</span>
+            <span class="hero__stat-label">Years Experience</span>
+          </div>
+          <div class="hero__stat">
+            <span class="hero__stat-number">85+</span>
+            <span class="hero__stat-label">Projects Completed</span>
+          </div>
+          <div class="hero__stat">
+            <span class="hero__stat-number">14</span>
+            <span class="hero__stat-label">Design Awards</span>
+          </div>
+        </div>
+      </div>
+      <a href="#about" class="hero__scroll" aria-label="Scroll to about section">
+        <span>Scroll</span>
+        <i class="fa-solid fa-arrow-down"></i>
+      </a>
+    </section>
+
+    <!-- About -->
+    <section class="section about" id="about">
+      <div class="container">
+        <div class="section__header reveal">
+          <span class="section__eyebrow">About Me</span>
+          <h2 class="section__title">Where Engineering<br>Meets Artistry</h2>
+        </div>
+        <div class="about__grid">
+          <div class="about__image reveal">
+            <div class="about__image-frame">
+              <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=800&q=80" alt="Elena Vassiliou, Architectural Engineer" loading="lazy">
+            </div>
+            <div class="about__image-accent"></div>
+          </div>
+          <div class="about__content reveal reveal--delay">
+            <p class="about__lead">I believe architecture is the silent poetry of our built environment — every line drawn carries intention, every structure tells a story.</p>
+            <p>With over a decade of experience in architectural engineering, I specialize in creating spaces that harmonize human experience with environmental responsibility. My approach bridges the technical rigor of structural engineering with the refined sensibility of contemporary design.</p>
+            <p>From concept sketches to construction documentation, I guide projects through every phase with meticulous attention to detail, sustainable practices, and an unwavering commitment to aesthetic excellence.</p>
+            <blockquote class="about__quote">
+              <p>"Architecture should speak of its time and place, but yearn for timelessness."</p>
+              <cite>— My Design Philosophy</cite>
+            </blockquote>
+            <a href="resume.html" class="btn btn--secondary">View Full Resume</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services -->
+    <section class="section services" id="services">
+      <div class="container">
+        <div class="section__header section__header--center reveal">
+          <span class="section__eyebrow">Services</span>
+          <h2 class="section__title">What I Offer</h2>
+          <p class="section__desc">Comprehensive architectural solutions tailored to transform your vision into built reality.</p>
+        </div>
+        <div class="services__grid">
+          <article class="service-card reveal">
+            <div class="service-card__icon">
+              <i class="fa-solid fa-building"></i>
+            </div>
+            <h3 class="service-card__title">Residential Design</h3>
+            <p class="service-card__text">Custom homes and luxury residences designed with spatial intelligence, natural light optimization, and refined material palettes.</p>
+            <a href="portfolio.html" class="service-card__link">Explore Projects <i class="fa-solid fa-arrow-right"></i></a>
+          </article>
+          <article class="service-card reveal reveal--delay">
+            <div class="service-card__icon">
+              <i class="fa-solid fa-city"></i>
+            </div>
+            <h3 class="service-card__title">Commercial Architecture</h3>
+            <p class="service-card__text">Office complexes, retail spaces, and mixed-use developments that balance brand identity with functional efficiency.</p>
+            <a href="portfolio.html" class="service-card__link">Explore Projects <i class="fa-solid fa-arrow-right"></i></a>
+          </article>
+          <article class="service-card reveal reveal--delay-2">
+            <div class="service-card__icon">
+              <i class="fa-solid fa-couch"></i>
+            </div>
+            <h3 class="service-card__title">Interior Design</h3>
+            <p class="service-card__text">Curated interior environments featuring bespoke furnishings, thoughtful circulation, and cohesive aesthetic narratives.</p>
+            <a href="portfolio.html" class="service-card__link">Explore Projects <i class="fa-solid fa-arrow-right"></i></a>
+          </article>
+          <article class="service-card reveal reveal--delay-3">
+            <div class="service-card__icon">
+              <i class="fa-solid fa-tree"></i>
+            </div>
+            <h3 class="service-card__title">Landscape Architecture</h3>
+            <p class="service-card__text">Outdoor spaces that extend architectural language into nature — gardens, terraces, and sustainable green infrastructure.</p>
+            <a href="portfolio.html" class="service-card__link">Explore Projects <i class="fa-solid fa-arrow-right"></i></a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Featured Work Preview -->
+    <section class="section featured">
+      <div class="container">
+        <div class="section__header reveal">
+          <span class="section__eyebrow">Selected Work</span>
+          <h2 class="section__title">Recent Projects</h2>
+        </div>
+        <div class="featured__grid">
+          <a href="portfolio.html" class="featured__item featured__item--large reveal">
+            <img src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=900&q=80" alt="Aurora Residence" loading="lazy">
+            <div class="featured__overlay">
+              <span class="featured__category">Residential</span>
+              <h3 class="featured__title">Aurora Residence</h3>
+            </div>
+          </a>
+          <a href="portfolio.html" class="featured__item reveal reveal--delay">
+            <img src="https://images.unsplash.com/photo-1497366216548-37526070297c?w=600&q=80" alt="Meridian Tower" loading="lazy">
+            <div class="featured__overlay">
+              <span class="featured__category">Commercial</span>
+              <h3 class="featured__title">Meridian Tower</h3>
+            </div>
+          </a>
+          <a href="portfolio.html" class="featured__item reveal reveal--delay-2">
+            <img src="https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?w=600&q=80" alt="Serenity Loft" loading="lazy">
+            <div class="featured__overlay">
+              <span class="featured__category">Interior</span>
+              <h3 class="featured__title">Serenity Loft</h3>
+            </div>
+          </a>
+        </div>
+        <div class="featured__cta reveal">
+          <a href="portfolio.html" class="btn btn--secondary">View All Projects</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="section contact" id="contact">
+      <div class="container">
+        <div class="section__header section__header--center reveal">
+          <span class="section__eyebrow">Contact</span>
+          <h2 class="section__title">Let's Create Together</h2>
+          <p class="section__desc">Ready to bring your architectural vision to life? I'd love to hear about your project.</p>
+        </div>
+        <div class="contact__grid">
+          <div class="contact__info reveal">
+            <div class="contact__info-item">
+              <div class="contact__info-icon">
+                <i class="fa-solid fa-envelope"></i>
+              </div>
+              <div>
+                <h4>Email</h4>
+                <a href="mailto:elena.vassiliou@architect.com">elena.vassiliou@architect.com</a>
+              </div>
+            </div>
+            <div class="contact__info-item">
+              <div class="contact__info-icon">
+                <i class="fa-solid fa-phone"></i>
+              </div>
+              <div>
+                <h4>Phone</h4>
+                <a href="tel:+302101234567">+30 210 123 4567</a>
+              </div>
+            </div>
+            <div class="contact__info-item">
+              <div class="contact__info-icon">
+                <i class="fa-solid fa-location-dot"></i>
+              </div>
+              <div>
+                <h4>Location</h4>
+                <p>Athens, Greece</p>
+              </div>
+            </div>
+            <div class="contact__info-item">
+              <div class="contact__info-icon">
+                <i class="fa-solid fa-clock"></i>
+              </div>
+              <div>
+                <h4>Working Hours</h4>
+                <p>Mon – Fri: 9:00 AM – 6:00 PM</p>
+              </div>
+            </div>
+          </div>
+          <form class="contact__form reveal reveal--delay" id="contactForm" novalidate>
+            <div class="form-group">
+              <input type="text" id="name" name="name" required autocomplete="name">
+              <label for="name">Your Name</label>
+              <span class="form-error" id="nameError"></span>
+            </div>
+            <div class="form-group">
+              <input type="email" id="email" name="email" required autocomplete="email">
+              <label for="email">Email Address</label>
+              <span class="form-error" id="emailError"></span>
+            </div>
+            <div class="form-group">
+              <input type="text" id="subject" name="subject" required>
+              <label for="subject">Subject</label>
+              <span class="form-error" id="subjectError"></span>
+            </div>
+            <div class="form-group form-group--textarea">
+              <textarea id="message" name="message" rows="5" required></textarea>
+              <label for="message">Your Message</label>
+              <span class="form-error" id="messageError"></span>
+            </div>
+            <button type="submit" class="btn btn--primary btn--full">
+              <span>Send Message</span>
+              <i class="fa-solid fa-paper-plane"></i>
+            </button>
+            <div class="form-success" id="formSuccess">
+              <i class="fa-solid fa-circle-check"></i>
+              <p>Thank you! Your message has been sent successfully.</p>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__brand">
+        <a href="index.html" class="logo logo--footer">Elena Vassiliou</a>
+        <p class="footer__tagline">Architectural Engineer &amp; Designer</p>
+      </div>
+      <nav class="footer__nav">
+        <a href="index.html">Home</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="resume.html">Resume</a>
+        <a href="index.html#contact">Contact</a>
+      </nav>
+      <div class="footer__social">
+        <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+          <i class="fa-brands fa-linkedin-in"></i>
+        </a>
+        <a href="https://behance.net" target="_blank" rel="noopener noreferrer" aria-label="Behance">
+          <i class="fa-brands fa-behance"></i>
+        </a>
+        <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+          <i class="fa-brands fa-instagram"></i>
+        </a>
+        <a href="https://pinterest.com" target="_blank" rel="noopener noreferrer" aria-label="Pinterest">
+          <i class="fa-brands fa-pinterest-p"></i>
+        </a>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <div class="container">
+        <p>&copy; 2026 Elena Vassiliou. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
